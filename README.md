@@ -1,6 +1,4 @@
 # Hackathon-Exercise-App
-Workout plan app for Hackathon
-
 An app that the user can use to make and reach daily workout goals, see a history of their weekly progress, get recomended goal adjustments based on weekly progress, and edit their goals/ daily workouts baised on what they learned.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
