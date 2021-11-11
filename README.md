@@ -3,7 +3,8 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- There will be a graph that will show their "weekly report" based on the last 7 days (techniqly not weekly since it will start the day they registor) where they can see how close they were from the daily goal throughout the week. Like if they avaraged above their goal, under their goal, or even on the dot. From there they would get a recomendation baised on their weeks progress on weither or not they should change their goal to be higher or lower then it currently is baised on their avarage.
+- There will be a graph that will show their "weekly report" based on the last 7 days (techniqly not weekly since it will start the day they registor) where they can see how close they were from the daily goal throughout the week. This is repersented through a line graph where a doted line will repersent what they are avaraged "workouts per day" is
+
 
 - A check list where they check off workouts as they do them. So they can break down their daily goal into bite sized chunks so they can get them done without stressing about doing them all at one time
 
