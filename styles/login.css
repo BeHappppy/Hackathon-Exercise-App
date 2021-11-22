@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(222, 205, 255, 1);
+    margin-top:8em;
+    }
+    h1{
+        text-align:center;
+        color:rgb(89, 58, 152, 1);
+        font-family:"Century Gothic",sans-serif;
+        font-size:40px;
+    }
+    .user-input{
+        text-align:center;
+        color:rgb(89, 58, 152, 1);
+        font-family:"Century Gothic",sans-serif;
+        font-size:20px;	
+    }
+    label{
+        font-weight: bold;
+    }
+    input[type=submit]{
+        border-color:rgb(150, 128, 13, 1);
+        padding: 10px 15px;
+        border-radius:10px;
+        /* ugly yellow:(
+        background-color:rgb(255, 233, 105, 1); */
+        background-color:rgb(255, 242, 175, 1);
+        color:rgb(121, 101, 0, 1);
+        font-family:"Century Gothic",sans-serif;	
+        font-size:15px;
+    }
+    #bee-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }

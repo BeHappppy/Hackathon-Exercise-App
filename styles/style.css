@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(222, 205, 255, 1);
+    margin-top:10em;
+    }
+    h1{
+    text-align:center;
+    color:rgb(89, 58, 152, 1);
+    font-family:"Century Gothic",sans-serif;
+    font-size:50px;
+    }
+    a{
+    color:rgb(89, 58, 152, 1);
+    font-family:"Century Gothic",sans-serif;
+    font-size:35px;
+    }
+    #links{
+    display: flex;
+    justify-content: space-between;	
+    margin-left: 6em;
+    margin-right: 6em;
+    }
+    #bee-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
