@@ -1,0 +1,35 @@
+body{
+	background-color:rgb(222, 205, 255, 1);
+	margin-top:8em;
+}
+h1{
+	color:rgb(121, 101, 0, 1);
+	text-align:center;
+	font-family:"Century Gothic",sans-serif;
+	font-size:40px;
+}
+strong {
+    display: inline-block;
+    width: 50px;
+    border: 1px solid #000;
+    text-align: center;
+}
+.button{
+	border-color:rgb(89, 58, 152, 1);
+	padding: 10px 15px;
+	border-radius:10px;
+	background-color:rgb(222, 205, 255, 1);
+	color:rgb(89, 58, 152, 1);
+	font-family:"Century Gothic",sans-serif;	
+	font-size:15px;
+	font-weight:bold;
+}
+#theDiv {
+  border: solid black 2px;
+	border-color:rgb(150, 128, 13, 1);
+	border-radius:30px;
+	border-width:5px;
+	margin: auto;
+  width: 30%;
+	background-color:rgb(255, 242, 175, 1);
+}
