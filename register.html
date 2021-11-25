@@ -4,31 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
-    <link href="styles/register.css" rel="stylesheet" type="text/css" />
+    <link href="register.css" rel="stylesheet" type="text/css" />
 		<script src="script.js"></script>
 	</head>
 
 <body>
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
-<form>
-<div class="container">
+
+<form name="registerForm" onSubmit="return validateRegister()" action="homepage.html">
+<div>
 <h1>Register Here</h1>
-<label for="email"><b>Enter Email</b></label>
-<input type="text" placeholder="Enter Email" name="email"><br>
+<label for="username"><b>Username</b></label>
+<input type="text" placeholder="Enter username" name="username" id="username"><br>
 
 <label for="pwd"><b>Password</b></label>
-<input type="password" placeholder="Enter Password" name="pwd"><br>
+<input type="password" placeholder="Enter Password" name="pwd" id="password1"><br>
 <label for="confirm"><b>Confirm Password</b></label>
-<input type="password" placeholder="Confirm Password" name="confirm"><br><br>
-<button type="submit" class="registerbtn"><strong>Register</strong></button>
-</div>
-<div class="container signin">
+<input type="password" placeholder="Confirm Password" name="confirm" id="password2"><br><br>
+<button type="submit" ><strong>Register</strong></button>
 </div>
 </form>
+
 <br>
-	<div id="login-link"><a href="login.html">Already have an account?</a></div>
+	<div id="login-link"><a href="https://HACKATHON-LOGIN.meriemsibachir.repl.co">Already have an account?</a></div>
 	
-	 <img src = "images/vita-plan-logo.png" alt="Bee logo" width="550" id="bee-logo">
+	 <img src ="images/vita-plan-logo.png" alt="Bee logo" width="550" id="bee-logo">
 	 
 		</body>
 
