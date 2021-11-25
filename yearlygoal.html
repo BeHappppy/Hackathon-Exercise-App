@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="yearlygoal.css" rel="stylesheet" type="text/css" />
+		<script src="script.js"></script>
+	</head>
+	
+  <center>
+    <body>
+      <img src =     "images/vita-plan-logo" alt="Bee logo" width="220" id="bee-logo">
+    <h1> YEARLY RESOLUTION</h1>
+   
+    <form>    
+        <input type="text" placeholder="eg. Get strong!">
+        <button type="submit">YOUR YEARLY RESOLUTION </button>
+        <br>
+        <br>
+		<p id="text-output"></p>
+
+    
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script> 
+        $('form').on('submit' ,function(event)
+    {
+            event.preventDefault();
+            var $input = $(this).find('input');
+            var input = $input.val();
+            $('#text-output').text("your goal: " + input);
+        });
+    </script>
+         <span id="monthly-link"><a href="monthlygoal.html">GO BACK TO MONTHLY OBJECTIVE</a></span>
+        <br>      
+               <br>
+        <br>
+        <br>
+        <br>
+<span id="homepage-link"><a href="homepage.html">HOME</a></span>
+    
+    </body>
+    
+
+
+    </center>
+</html>
