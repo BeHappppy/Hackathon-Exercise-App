@@ -1,0 +1,47 @@
+body{
+background-color:rgb(222, 205, 255, 1);
+}
+h1{
+	text-align:center;
+	color:rgb(89, 58, 152, 1);
+	font-family:"Century Gothic",sans-serif;
+	font-size:40px;
+}
+h4{
+	text-align:center;
+	color:rgb(89, 58, 152, 1);
+	font-family:"Century Gothic",sans-serif;
+}
+input{
+	text-align:center;
+	color:rgb(89, 58, 152, 1);
+	font-family:"Century Gothic",sans-serif;
+	font-size:20px;	
+}
+input[type=button]{
+	border-color:rgb(150, 128, 13, 1);
+	padding: 6px 12px;
+	border-radius:10px;
+	background-color:rgb(255, 242, 175, 1);
+	color:rgb(121, 101, 0, 1);
+	font-family:"Century Gothic",sans-serif;	
+	font-size:15px;
+	font-weight: bold;
+}
+form{
+	text-align: center;
+}
+hr{
+	border-width:0;
+}
+#home-link{
+	text-align:center;
+	color:rgb(89, 58, 152, 1);
+	font-family:"Century Gothic",sans-serif;
+	font-weight:bold;
+}
+#bee-logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
