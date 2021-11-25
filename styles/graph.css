@@ -1,0 +1,19 @@
+canvas {
+  display: block;
+}
+#nav {
+  color:rgb(89, 58, 152, 1);
+  font-family: "Century Gothic",sans-serif;
+  display: flex;
+  justify-content: space-between;	
+  margin-left: 2em;
+  margin-right: 2em;  
+}
+h2 {
+  color: rgb(89, 58, 152, 1);
+  font: bold 40px "Century Gothic",sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgb(222, 205, 255, 1);
+}
