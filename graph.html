@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script   src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="graph.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <span  id = "nav">
+      <a href = "yearlygoal.html">Yearly Resolution</a>
+      <a href = "dailygoals.html">Daily goals</a>
+      <a href = "homepage.html">Home Page</a>
+    </span>
+
+    <h2 id = "currentTime"></h2>
+
+    <script src="script.js"></script>
+    <script>
+      const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December']; 
+      const thisMonth = monthNames[(new Date()).getMonth()];
+
+      var today = new Date();
+
+      var date = today.getDate();
+
+      document.getElementById("currentTime").innerHTML = "Month of " + thisMonth + ", days " + (date-7) + " - " + date;
+    </script>
+  </body>
+</html>
